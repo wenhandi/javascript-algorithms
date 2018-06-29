@@ -74,7 +74,7 @@ export default class LinkedList {
     let currentNode = this.head;
 
     if (currentNode !== null) {
-      // If next node must be deleted then make next node to be a next next one.
+      // 遍历除头尾的链表节点 删除同名节点
       while (currentNode.next) {
         if (this.compare.equal(currentNode.next.value, value)) {
           deletedNode = currentNode.next;
