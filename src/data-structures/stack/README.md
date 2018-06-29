@@ -1,7 +1,6 @@
-# Stack
+# 栈
 
-In computer science, a stack is an abstract data type that serves 
-as a collection of elements, with two principal operations:
+在计算机科学中，栈是一个抽象的数据类型，充当元素的集合 有两个主要的操作:
 
 * **push**, which adds an element to the collection, and
 * **pop**, which removes the most recently added element that was not yet removed.

@@ -1,5 +1,5 @@
 import LinkedList from '../linked-list/LinkedList';
-
+// 哈希表的大小直接影响碰撞的次数，越大的哈希表碰撞次数越少。为了示范哈希表很小去展示碰撞怎么处理
 // Hash table size directly affects on the number of collisions.
 // The bigger the hash table size the less collisions you'll get.
 // For demonstrating purposes hash table size is small to show how collisions
