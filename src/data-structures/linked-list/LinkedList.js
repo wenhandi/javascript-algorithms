@@ -112,6 +112,7 @@ export default class LinkedList {
         return currentNode;
       }
 
+      // 回调函数不行的话  while循环找到
       // If value is specified then try to compare by value..
       if (value !== undefined && this.compare.equal(currentNode.value, value)) {
         return currentNode;
