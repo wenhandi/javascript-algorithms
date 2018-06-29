@@ -17,6 +17,10 @@ time is linear (and difficult to pipeline). Faster
 access, such as random access, is not feasible. Arrays 
 have better cache locality as compared to linked lists.
 
+
+
+在计算机科学中，链表是一个数据元素的线性集合，线性顺序不是内存中给出的物理空间。而是每个元素有一个指向下一个的指针点。是一组节点组成的数据结构公共呈现为一个序列。最简单的形式，
+
 ![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 ## References
