@@ -5,6 +5,7 @@ import Comparator from '../../utils/comparator/Comparator';
 // we take into account not element's value but rather its priority.
 export default class PriorityQueue extends MinHeap {
   constructor() {
+    // 调用父类的constructor
     super();
     this.priorities = {};
     this.compare = new Comparator(this.comparePriority.bind(this));
@@ -17,6 +18,7 @@ export default class PriorityQueue extends MinHeap {
    */
   add(item, priority = 0) {
     this.priorities[item] = priority;
+    // 调用父类方法
     super.add(item);
 
     return this;

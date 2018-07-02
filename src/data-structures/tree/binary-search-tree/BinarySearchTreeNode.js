@@ -24,7 +24,6 @@ export default class BinarySearchTreeNode extends BinaryTreeNode {
 
       return this;
     }
-
     if (this.nodeValueComparator.lessThan(value, this.value)) {
       // Insert to the left.
       if (this.left) {

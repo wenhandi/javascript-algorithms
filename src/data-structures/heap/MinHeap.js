@@ -227,7 +227,7 @@ export default class MinHeap {
     // of children. Do the same for next children after swap.
     let currentIndex = customStartIndex || 0;
     let nextIndex = null;
-    // 左右子树都有，最小的索引赋值给nextIndex
+    // 左右子树都有时找出最小的值的索引赋值给nextIndex
     while (this.hasLeftChild(currentIndex)) {
       if ( this.hasRightChild(currentIndex) && this.compare.lessThan(this.rightChild(currentIndex), this.leftChild(currentIndex)) ){
         nextIndex = this.getRightChildIndex(currentIndex);
