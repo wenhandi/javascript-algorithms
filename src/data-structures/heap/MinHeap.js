@@ -117,6 +117,7 @@ export default class MinHeap {
 
     const item = this.heapContainer[0];
 
+    // 用最后一个数组元素换掉数组的第一个元素，并删除最后一个元素
     // Move the last element from the end to the head.
     this.heapContainer[0] = this.heapContainer.pop();
     this.heapifyDown();
@@ -202,6 +203,7 @@ export default class MinHeap {
    * @param {number} [customStartIndex]
    */
   heapifyUp(customStartIndex) {
+    // 从堆容器中找到最后一个元素并提升直到找到小于当前新元素的父元素
     // Take last element (last in array or the bottom left in a tree) in
     // a heap container and lift him up until we find the parent element
     // that is less then the current new one.
@@ -220,16 +222,14 @@ export default class MinHeap {
    * @param {number} [customStartIndex]
    */
   heapifyDown(customStartIndex) {
+    // 比较根元素和子元素并交换根元素和最小的子元素。交换后对下一个子元素做同样操作
     // Compare the root element to its children and swap root with the smallest
     // of children. Do the same for next children after swap.
     let currentIndex = customStartIndex || 0;
     let nextIndex = null;
-
+    // 左右子树都有，最小的索引赋值给nextIndex
     while (this.hasLeftChild(currentIndex)) {
-      if (
-        this.hasRightChild(currentIndex) &&
-        this.compare.lessThan(this.rightChild(currentIndex), this.leftChild(currentIndex))
-      ) {
+      if ( this.hasRightChild(currentIndex) && this.compare.lessThan(this.rightChild(currentIndex), this.leftChild(currentIndex)) ){
         nextIndex = this.getRightChildIndex(currentIndex);
       } else {
         nextIndex = this.getLeftChildIndex(currentIndex);

@@ -8,6 +8,8 @@ less than or equal to (in a min heap) the key of `C`.
 The node at the "top" of the heap (with no parents) is 
 called the root node.
 
+堆是一个基于树的特殊的数据结构在 若P是C的父节点，P的的key(value)大于、等于(最大堆）或者小于等于（最小堆）C的key。堆顶点（没有父节点）叫根节点
+
 ![Heap](https://upload.wikimedia.org/wikipedia/commons/3/38/Max-Heap.svg)
 
 ## References
