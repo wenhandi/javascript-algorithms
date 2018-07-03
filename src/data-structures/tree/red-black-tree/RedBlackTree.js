@@ -8,7 +8,7 @@ const RED_BLACK_TREE_COLORS = {
 
 // Color property name in meta information of the nodes.
 const COLOR_PROP_NAME = 'color';
-
+// 根节点为黑色、新节点为红色：“根黑新红”
 export default class RedBlackTree extends BinarySearchTree {
   /**
    * @param {*} value
@@ -20,9 +20,11 @@ export default class RedBlackTree extends BinarySearchTree {
     // if (!this.root.left && !this.root.right) {
     if (this.nodeComparator.equal(insertedNode, this.root)) {
       // Make root to always be black.
+      // 根节点为黑色
       this.makeNodeBlack(insertedNode);
     } else {
       // Make all newly inserted nodes to be red.
+      // 所有新插入的节点为红色
       this.makeNodeRed(insertedNode);
     }
 

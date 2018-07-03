@@ -6,7 +6,8 @@ an extra bit, and that bit is often interpreted as the
 color (red or black) of the node. These color bits are used 
 to ensure the tree remains approximately balanced during 
 insertions and deletions.
-
+红黑树是一种自平衡的二分搜索树。二分树的每个节点有一个额外的点，
+那个点总是解释为（红或黑）点的颜色。这些颜色的点用来在插入和删除期间确保树保持大约的平衡。
 Balance is preserved by painting each node of the tree with 
 one of two colors in a way that satisfies certain properties,
 which collectively constrain how unbalanced the tree can 
@@ -15,7 +16,7 @@ new tree is subsequently rearranged and repainted to
 restore the coloring properties. The properties are 
 designed in such a way that this rearranging and recoloring 
 can be performed efficiently.
-
+当树改变新数
 The balancing of the tree is not perfect, but it is good 
 enough to allow it to guarantee searching in `O(log n)` time,
 where `n` is the total number of elements in the tree. 
