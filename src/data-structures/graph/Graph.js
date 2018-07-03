@@ -179,6 +179,7 @@ export default class Graph {
   /**
    * @return {*[][]}
    */
+  // 获取邻接矩阵
   getAdjacencyMatrix() {
     const vertices = this.getAllVertices();
     const verticesIndices = this.getVerticesIndices();

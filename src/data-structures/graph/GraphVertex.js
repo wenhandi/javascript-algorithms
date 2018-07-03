@@ -1,5 +1,5 @@
 import LinkedList from '../linked-list/LinkedList';
-
+// 图顶点
 export default class GraphVertex {
   /**
    * @param {*} value
