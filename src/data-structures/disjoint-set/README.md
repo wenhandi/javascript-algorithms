@@ -5,6 +5,7 @@ structure that tracks a set of elements partitioned into a number of disjoint (n
 It provides near-constant-time operations (bounded by the inverse Ackermann function) to *add new sets*, 
 to *merge existing sets*, and to *determine whether elements are in the same set*. 
 In addition to many other uses (see the Applications section), disjoint-sets play a key role in Kruskal's algorithm for finding the minimum spanning tree of a graph.
+并查集跟踪一组元素，这些元素被分成许多不相交的子集的数据结构。它提供一个接近恒定的时间来操作（以逆Ackermann函数为界）*添加新集合*，*合并存在的集合*，*确定元素是否在同一个集合中*
 
 ![disjoint set](https://upload.wikimedia.org/wikipedia/commons/6/67/Dsu_disjoint_sets_init.svg)
 

@@ -43,6 +43,8 @@ export default class DisjointSetItem {
    *
    * @return {number}
    */
+  // 秩：线性代数术语，一个矩阵A的列秩是 A的线性无关的纵列的极大数目。行秩是A的线性无关横行的极大数目。矩阵的列秩和行秩总是相等的，因此它们可简单称作矩阵A的秩。
+  // 通常表示为 rk(A) 或 rank A
   getRank() {
     if (this.getChildren().length === 0) {
       return 0;
