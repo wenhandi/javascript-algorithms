@@ -2,6 +2,7 @@
  * @param {number} number
  * @return {boolean}
  */
+// 对正数做判断 大于1的偶数返回 true
 export default function isPowerOfTwo(number) {
   // Don't work with negative numbers.
   if (number < 0) {

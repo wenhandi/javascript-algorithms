@@ -126,6 +126,7 @@ export default class SegmentTree {
       return this.operationFallback;
     }
 
+    // 索引是从0开始，所以用floor(地板)取小，从1开始的那种用cell(取大)
     // Partial overlap.
     const middleIndex = Math.floor((leftIndex + rightIndex) / 2);
 

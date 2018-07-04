@@ -3,7 +3,7 @@
 A **Fenwick tree** or **binary indexed tree** is a data 
 structure that can efficiently update elements and 
 calculate prefix sums in a table of numbers.
-
+Fenwick树或叫二分索引树是一个可高效更新元素计算数字表的前缀和。
 When compared with a flat array of numbers, the Fenwick tree achieves a 
 much better balance between two operations: element update and prefix sum 
 calculation. In a flat array of `n` numbers, you can either store the elements, 
@@ -14,7 +14,9 @@ Fenwick trees allow both operations to be performed in `O(log n)` time.
 This is achieved by representing the numbers as a tree, where the value of 
 each node is the sum of the numbers in that subtree. The tree structure allows 
 operations to be performed using only `O(log n)` node accesses.
-
+当计算一个偏平的数字数组，Fenwick树实现元素更新和前缀求和的一个更好的平衡。一个有n个数字的扁平数组，可以存储元素或者前缀求和。
+第一种情况，前追求和需要线性的时间，第二种情况，更新数组元素需要需要线性时间（除此之外的其他操作将按恒定时间执行）
+Fenwick树允许两个操作按O(log n)时间执行。这是通过将数字表示为树来实现的，每一个节点的树的值是子树的数量。树数据结构允许操作仅以O(log n)节点进入
 ## Implementation Notes
 
 Binary Indexed Tree is represented as an array. Each node of Binary Indexed Tree 
