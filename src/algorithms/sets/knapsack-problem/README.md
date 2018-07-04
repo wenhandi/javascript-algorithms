@@ -6,11 +6,11 @@ a weight and a value, determine the number of each item to
 include in a collection so that the total weight is less 
 than or equal to a given limit and the total value is as 
 large as possible.
-
+背包问题是一个组合优化的问题：给定一个集合项，每一项有一个权重和一个值，确定一个集合中的数据项的数量，是集合的最大权重是小于等于给出的限制且最大值越大越好。
 It derives its name from the problem faced by someone who is 
 constrained by a fixed-size knapsack and must fill it with the 
 most valuable items.
-
+名字衍生于某人受限于需要固定大小的包必须用最有价值的数据项填充。
 Example of a one-dimensional (constraint) knapsack problem: 
 which boxes should be chosen to maximize the amount of money 
 while still keeping the overall weight under or equal to 15 kg?
