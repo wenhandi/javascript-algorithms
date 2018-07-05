@@ -14,7 +14,7 @@ most valuable items.
 Example of a one-dimensional (constraint) knapsack problem: 
 which boxes should be chosen to maximize the amount of money 
 while still keeping the overall weight under or equal to 15 kg?
-
+一维（约束）背包问题的例子：应该选择箱子以最大化金钱，同时仍保持总重量低于或等于15公斤
 ![knapsack problem](https://upload.wikimedia.org/wikipedia/commons/f/fd/Knapsack.svg)
 
 ## Definition

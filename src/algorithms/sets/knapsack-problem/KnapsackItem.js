@@ -12,7 +12,7 @@ export default class KnapsackItem {
     // Actual number of items that is going to be added to knapsack.
     this.quantity = 1;
   }
-
+  // 在“类”内部使用get和set关键字，对于属性设置存、取值函数，拦截该属性的存取行为
   get totalValue() {
     return this.value * this.quantity;
   }
@@ -21,6 +21,7 @@ export default class KnapsackItem {
     return this.weight * this.quantity;
   }
 
+  // 系数显示一个单位的重量的值对于目前的项
   // This coefficient shows how valuable the 1 unit of weight is
   // for current item.
   get valuePerWeightRatio() {

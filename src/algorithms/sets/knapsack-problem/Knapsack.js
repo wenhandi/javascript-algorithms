@@ -76,6 +76,7 @@ export default class Knapsack {
       return Array(numberOfColumns + 1).fill(null);
     });
 
+    // ES2015+初始化二维数组（矩阵）
     // Fill the first column with zeros since it would mean that there is
     // no items we can add to knapsack in case if weight limitation is zero.
     for (let itemIndex = 0; itemIndex < this.possibleItems.length; itemIndex += 1) {
