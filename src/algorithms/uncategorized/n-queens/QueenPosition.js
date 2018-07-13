@@ -14,6 +14,7 @@ export default class QueenPosition {
   /**
    * @return {number}
    */
+  // 左对角线
   get leftDiagonal() {
     // Each position on the same left (\) diagonal has the same difference of
     // rowIndex and columnIndex. This fact may be used to quickly check if two

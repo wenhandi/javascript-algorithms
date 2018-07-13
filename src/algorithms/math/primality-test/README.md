@@ -7,7 +7,7 @@ example, `5` is prime because the only ways of writing it as a
 product, `1 × 5` or `5 × 1`, involve `5` itself. However, `6` is 
 composite because it is the product of two numbers `(2 × 3)` that are 
 both smaller than `6`. 
-
+不是素数的大于1的自然数叫
 ![Prime Numbers](https://upload.wikimedia.org/wikipedia/commons/f/f0/Primes-vs-composites.svg)
 
 A **primality test** is an algorithm for determining whether an input 

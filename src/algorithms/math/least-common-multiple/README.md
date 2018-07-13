@@ -9,7 +9,7 @@ undefined, this definition has meaning only if `a` and `b` are
 both different from zero. However, some authors define `lcm(a,0)`
 as `0` for all `a`, which is the result of taking the `lcm`
 to be the least upper bound in the lattice of divisibility.
-
+最小公倍数，两个整数的最小公倍数，常表示为LCM(a, b)，是
 ## Example
 
 What is the LCM of 4 and 6?

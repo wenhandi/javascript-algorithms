@@ -19,6 +19,7 @@ class VisitMetadata {
  * @param {Graph} graph
  * @return {Object}
  */
+// 关节点
 export default function articulationPoints(graph) {
   // Set of vertices we've already visited during DFS.
   const visitedSet = {};

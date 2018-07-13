@@ -11,6 +11,7 @@ export default function euclideanAlgorithm(originalA, originalB) {
     return null;
   }
 
+  // 有0返回不是0的那个
   if (a === 0 && b !== 0) {
     return b;
   }

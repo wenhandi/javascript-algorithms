@@ -28,6 +28,7 @@ function getNGonSideLength(sideLength, splitCounter) {
  * @param {number} splitCount
  * @return {number}
  */
+// 获取N边形的边数
 function getNGonSideCount(splitCount) {
   // Liu Hui began with an inscribed hexagon (6-gon).
   const hexagonSidesCount = 6;
@@ -43,6 +44,7 @@ function getNGonSideCount(splitCount) {
  *  On each split we will receive 12-gon, 24-gon and so on.
  * @return {number}
  */
+// 求近似π
 export default function liuHui(splitCount = 1) {
   const nGonSideLength = getNGonSideLength(circleRadius, splitCount - 1);
   const nGonSideCount = getNGonSideCount(splitCount - 1);

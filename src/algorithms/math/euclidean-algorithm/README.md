@@ -1,10 +1,10 @@
 # Euclidean algorithm
-
+计算最大公约数
 In mathematics, the Euclidean algorithm, or Euclid's algorithm, 
 is an efficient method for computing the greatest common divisor 
 (GCD) of two numbers, the largest number that divides both of 
 them without leaving a remainder.
-
+欧几里得算法
 The Euclidean algorithm is based on the principle that the 
 greatest common divisor of two numbers does not change if 
 the larger number is replaced by its difference with the 

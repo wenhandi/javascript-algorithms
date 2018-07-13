@@ -16,9 +16,9 @@
  */
 function initCallbacks(callbacks = {}) {
   const initiatedCallback = callbacks;
-
+  // 存根回调
   const stubCallback = () => {};
-
+  // 允许遍历回调
   const allowTraversalCallback = (
     () => {
       const seen = {};
